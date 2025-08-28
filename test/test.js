@@ -12,3 +12,9 @@ describe('First two terms', function() {
       assert.strictEqual(main.fibonacci(1), 1);
     });
 });
+
+describe('Negative Value', function() {
+    it('Should return undefined', function(){
+        assert.strictEqual(main.fibonacci(-1), undefined)
+    })
+})
